@@ -7,7 +7,7 @@ module.exports = {
       padding: "20px"
     },
     extend: {
-      colors:{
+      colors: {
         blue: "#0075FF",
         mgray: "#6E7191",
         dark: "#211F54"

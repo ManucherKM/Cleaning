@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.3/dist/flowbite.min.css" />
+    <link rel="stylesheet" href="./css/output.css">
+    <title>Up</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+
+
+
+            <nav class="bg-white px-2 sm:px-4 py-2.5  fixed w-full z-20 top-0 left-0 border-b border-gray-200 ">
+                <div class="container flex flex-wrap justify-between items-center mx-auto">
+                    <a href="https://flowbite.com/" class="flex items-center">
+                        <img src="./assets/img/Logo.svg" class="mr-3 h-6 sm:h-9" alt="Flowbite Logo">
+                    </a>
+                    <div class="flex md:order-2">
+                        <button type="button"
+                            class="text-white bg-blue-700 hover:opacity-60 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 btn">Get
+                            a free quote</button>
+                        <button data-collapse-toggle="navbar-sticky" type="button"
+                            class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 "
+                            aria-controls="navbar-sticky" aria-expanded="false">
+                            <span class="sr-only">Open main menu</span>
+                            <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="hidden justify-between items-center w-full md:flex md:w-auto md:order-1"
+                        id="navbar-sticky">
+                        <ul
+                            class="flex flex-col p-4 mt-4 bg-gray-50 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white ">
+                            <li>
+                                <a href="#"
+                                    class="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 "
+                                    aria-current="page">Home</a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:opacity-60 md:p-0 text-lg">About</a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:opacity-60  md:p-0 text-lg">Services</a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:opacity-60 md:p-0 text-lg">Pages</a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:opacity-60 md:p-0 text-lg">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+
+            <div class="flex items-center mt-10">
+                <div class="w-2/5">
+                    <h1 class="text-[68px] font-bold">
+                        Quality cleaning for your home
+                    </h1>
+                    <p class="text-[21px] mt-[22px] text-mgray">
+                        Condimentum mauris sit cursus amet id non neque pharetra nulla ornare sed facilisis senectus
+                        dapibus nibh ultrices eget suscipit aliquet et nulla magna lacus penatibus.
+                    </p>
+                    <div class="flex mt-[40px]">
+                        <button class="btn mr-[28px]">
+                            Get a free quote
+                        </button>
+                        <div class="flex">
+                            <div
+                                class="border border-gray-300 rounded-full flex justify-center items-center mr-[16px] w-[72px] h-[72px]">
+                                <svg width="36" height="36" viewBox="0 0 36 36" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M29.0856 35.3845C29.0732 35.3845 29.0609 35.3845 29.0485 35.3845C23.11 35.19 16.1529 29.4336 11.3595 24.6371C6.55989 19.8407 0.803488 12.8805 0.618288 6.9698C0.550388 4.8956 5.64019 1.2072 5.69259 1.1701C7.01369 0.250395 8.47979 0.577496 9.08169 1.4109C9.48909 1.9757 13.3473 7.8216 13.767 8.4853C14.2022 9.1736 14.1374 10.1983 13.5942 11.2261C13.2948 11.7971 12.3009 13.5441 11.8349 14.359C12.338 15.075 13.6683 16.8313 16.4153 19.5783C19.1654 22.3253 20.9186 23.6587 21.6377 24.1618C22.4526 23.6957 24.1996 22.7019 24.7706 22.4025C25.7829 21.8654 26.8015 21.7975 27.496 22.2235C28.2059 22.6587 34.0364 26.5354 34.5734 26.9088C35.0241 27.2268 35.3142 27.77 35.3728 28.4027C35.4284 29.0416 35.2309 29.7176 34.8204 30.3071C34.7864 30.3565 31.1412 35.3845 29.0856 35.3845Z"
+                                        fill="#0075FF" />
+                                </svg>
+                            </div>
+                            <div>
+                                <p class="text-base text-mgray">CALL US NOW</p>
+                                <p class="font-bold text-[28px]">(414) 567 - 2109</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-3/5">
+                    <img class="w-full" src="./assets/img/HeaderPeople.svg" alt="People">
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <main>
+        <div>
+            <div class="container mt-[200px]">
+                <h2 class="title text-center">
+                    How our service works?
+                </h2>
+                <p class="subtitle mx-auto w-[648px] text-center mt-5">
+                    Sagittis nibh scelerisque vitae eget vulputate sem elementum sed neque nisi felis non ultrices massa
+                    id egestas quam velit pretium nu.
+                </p>
+                <div class="flex justify-between mt-[80px]">
+                    <div class="w-1/4 text-center">
+                        <div>
+                            <img class="mx-auto" src="./assets/img/date.svg" alt="date">
+                        </div>
+                        <div class="mt-[40px]">
+                            <h4 class="text-[28px] font-bold">Schedule online</h4>
+                            <p class="subtitle mt-[16px] text-center">
+                                Sagittis nibh scelerisque vitae egetolment vulputate sem elemeantum sed n.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="w-1/4 text-center">
+                        <div>
+                            <img class="mx-auto" src="./assets/img/card.svg" alt="date">
+                        </div>
+                        <div class="mt-[40px]">
+                            <h4 class="text-[28px] font-bold">Pay online easily</h4>
+                            <p class="subtitle mt-[16px] text-center">
+                                Vitae ut accumsan blandit ullamcorperolm suscipit dui gravida amet at nunc.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="w-1/4 text-center">
+                        <div>
+                            <img class="mx-auto" src="./assets/img/clear.svg" alt="date">
+                        </div>
+                        <div class="mt-[40px]">
+                            <h4 class="text-[28px] font-bold">Get your house cleaned</h4>
+                            <p class="subtitle mt-[16px] text-center">
+                                Nunc maecenas sollicitudin metus tellus mattis sed porttitor cursus eleifend.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-[58px]">
+                    <div class="flex justify-center">
+                        <button class="btn mr-[28px]">
+                            Get a free quote
+                        </button>
+                        <button class="btn-default">
+                            Get a free quote
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mt-[240px]">
+            <div class="container">
+                <h2 class="title text-center">
+                    Our cleaning services have no comparison
+                </h2>
+                <div class="w-[690px] mx-auto text-center">
+                    <p class="subtitle mt-5">
+                        Lobortis mattis odio leo eget mauris met aliquet semper molestie sollicitudin congueamassa
+                        mauris
+                        lectus vitae cras viverra gravida sapien.
+                    </p>
+                </div>
+                <div class="w-[720px] mx-auto mt-10">
+                    <div class="flex justify-between">
+                        <div class="flex">
+                            <div
+                                class="border border-gray-300 rounded-full flex justify-center items-center w-[72px] h-[72px] mr-5">
+                                <img src="./assets/img/heart.svg" alt="icon">
+                            </div>
+                            <div>
+                                <p class="text-mgray text-base uppercase">CLIENTS</p>
+                                <p class="font-bold text-[28px]">3,480+</p>
+                            </div>
+                        </div>
+                        <div class="flex">
+                            <div
+                                class="border border-gray-300 rounded-full flex justify-center items-center w-[72px] h-[72px] mr-5">
+                                <img src="./assets/img/jobsDone.svg" alt="icon">
+                            </div>
+                            <div>
+                                <p class="text-mgray text-base uppercase">Jobs done</p>
+                                <p class="font-bold text-[28px]">12,540+</p>
+                            </div>
+                        </div>
+                        <div class="flex">
+                            <div
+                                class="border border-gray-300 rounded-full flex justify-center items-center w-[72px] h-[72px] mr-5">
+                                <img src="./assets/img/emploees.svg" alt="icon">
+                            </div>
+                            <div>
+                                <p class="text-mgray text-base uppercase">Employees</p>
+                                <p class="font-bold text-[28px]">100+</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-10 w-full">
+                    <video class="w-full rounded-3xl outline-none"
+                        src="https://player.vimeo.com/external/384523301.hd.mp4?s=26009a7e0d843418e312e2fd03679e22f35a150c&profile_id=174"
+                        mint autoplay loop poster="./assets/img/placeholderVideo.svg"></video>
+                </div>
+            </div>
+        </div>
+        <div class="mt-[240px]">
+            <div class="container">
+                <div class="flex justify-between">
+                    <div class="w-[475px]">
+                        <h2 class="title">Take a look at our professional services</h2>
+                    </div>
+                    <div class="flex items-center">
+                        <button class="hover:opacity-60 text-dark">Explore services</button>
+                    </div>
+                </div>
+                <div class="flex justify-between mt-24 items-end">
+                    <div class="w-1/4 text-center">
+                        <div>
+                            <img class="mx-auto" src="./assets/img/housecleaning.svg" alt="date">
+                        </div>
+                        <div class="mt-[40px]">
+                            <h4 class="text-[28px] font-bold">
+                                House cleaning
+                            </h4>
+                            <p class="subtitle mt-[16px] text-center">
+                                Lorem ipsum dolor sit amet consecte tur adipiscing elit semper dalaracc lacus vel
+                                facilisis volutpat est.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="w-1/4 text-center">
+                        <div>
+                            <img class="mx-auto" src="./assets/img/officecleaning.svg" alt="date">
+                        </div>
+                        <div class="mt-[40px]">
+                            <h4 class="text-[28px] font-bold">
+                                House cleaning
+                            </h4>
+                            <p class="subtitle mt-[16px] text-center">
+                                Lorem ipsum dolor sit amet consecte tur adipiscing elit semper dalaracc lacus vel
+                                facilisis volutpat est.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="w-1/4 text-center">
+                        <div>
+                            <img class="mx-auto" src="./assets/img/industrialcleaning.svg" alt="date">
+                        </div>
+                        <div class="mt-[40px]">
+                            <h4 class="text-[28px] font-bold">
+                                House cleaning
+                            </h4>
+                            <p class="subtitle mt-[16px] text-center">
+                                Lorem ipsum dolor sit amet consecte tur adipiscing elit semper dalaracc lacus vel
+                                facilisis volutpat est.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mt-[240px]">
+            <div class="container">
+                <div class="bg-dark flex rounded-3xl">
+                    <div class="w-2/4">
+                        <img src="./assets//img/peopleVirus.svg" alt="People" class="w-4/5">
+                    </div>
+                    <div class="w-2/4 flex flex-col justify-center">
+                        <div class="mr-[74px]">
+                            <p class="text-white font-bold text-base uppercase">
+                                Covid-19 sanitization
+                            </p>
+                            <h3 class="font-bold text-[48px] text-white w-[491px] mt-5">
+                                We follow guidelines to keep you safe from the COVID-19 virus
+                            </h3>
+                            <p class="text-[21px] text-white font-normal w-[474px] mt-5">
+                                Lobortis mattis odio leo eget mauris met aliquet semper molestie sollicitudin congue
+                                massa mauris lectus.
+                            </p>
+                            <div class="flex mt-5">
+                                <div class="mr-8">
+                                    <button class="btn">
+                                        Get a free quote
+                                    </button>
+                                </div>
+                                <div class="flex">
+                                    <div
+                                        class="rounded-full flex justify-center items-center mr-[16px] w-[74px] h-[74px] bg-white">
+                                        <svg width="36" height="36" viewBox="0 0 36 36" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">f
+                                            <path
+                                                d="M29.0856 35.3845C29.0732 35.3845 29.0609 35.3845 29.0485 35.3845C23.11 35.19 16.1529 29.4336 11.3595 24.6371C6.55989 19.8407 0.803488 12.8805 0.618288 6.9698C0.550388 4.8956 5.64019 1.2072 5.69259 1.1701C7.01369 0.250395 8.47979 0.577496 9.08169 1.4109C9.48909 1.9757 13.3473 7.8216 13.767 8.4853C14.2022 9.1736 14.1374 10.1983 13.5942 11.2261C13.2948 11.7971 12.3009 13.5441 11.8349 14.359C12.338 15.075 13.6683 16.8313 16.4153 19.5783C19.1654 22.3253 20.9186 23.6587 21.6377 24.1618C22.4526 23.6957 24.1996 22.7019 24.7706 22.4025C25.7829 21.8654 26.8015 21.7975 27.496 22.2235C28.2059 22.6587 34.0364 26.5354 34.5734 26.9088C35.0241 27.2268 35.3142 27.77 35.3728 28.4027C35.4284 29.0416 35.2309 29.7176 34.8204 30.3071C34.7864 30.3565 31.1412 35.3845 29.0856 35.3845Z"
+                                                fill="#0075FF" />
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <p class="text-base text-white">CALL US NOW</p>
+                                        <p class="font-bold text-[28px] text-white">(414) 567 - 2109</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mt-[240px]">
+            <div class="container">
+                <div class="flex">
+                    <div class="w-2/4">
+                        <img class="w-full" src="./assets/img/homeOrOffice.svg" alt="home">
+                    </div>
+                    <div class="w-2/4 ml-[150px] flex flex-col justify-center">
+                        <h3 class="font-bold text-dark text-[48px] w-[476px]">
+                            We cover all areas of your home or office
+                        </h3>
+                        <p class="text-mgray text-[18px] mt-5 w-[490px]">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidaidunt
+                            ut
+                            labore
+                            et dolore magna aliqua. Ut enim ad minim veniam.
+                        </p>
+                        <div class="flex justify-between w-[350px] mt-10">
+                            <div>
+                                <div class="flex">
+                                    <svg class="mr-3" width="26" height="26" viewBox="0 0 26 26" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_1_1367)">
+                                            <path
+                                                d="M13 26C20.1799 26 26 20.1799 26 13C26 5.8201 20.1799 0 13 0C5.8201 0 0 5.8201 0 13C0 20.1799 5.8201 26 13 26Z"
+                                                fill="#EDF5FF" />
+                                            <path d="M7.11682 13.8406L10.4786 17.2024L18.8832 8.79785" stroke="#0075FF"
+                                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_1_1367">
+                                                <rect width="26" height="26" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                    <span class="font-bold text-[18px]">
+                                        Bathrooms
+                                    </span>
+                                </div>
+                                <div class="mt-6 flex">
+                                    <svg class="mr-3" width="26" height="26" viewBox="0 0 26 26" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_1_1367)">
+                                            <path
+                                                d="M13 26C20.1799 26 26 20.1799 26 13C26 5.8201 20.1799 0 13 0C5.8201 0 0 5.8201 0 13C0 20.1799 5.8201 26 13 26Z"
+                                                fill="#EDF5FF" />
+                                            <path d="M7.11682 13.8406L10.4786 17.2024L18.8832 8.79785" stroke="#0075FF"
+                                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_1_1367">
+                                                <rect width="26" height="26" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                    <span class="font-bold text-[18px]">
+                                        Kitchens
+                                    </span>
+                                </div>
+                                <div class="mt-6 flex">
+                                    <svg class="mr-3" width="26" height="26" viewBox="0 0 26 26" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_1_1367)">
+                                            <path
+                                                d="M13 26C20.1799 26 26 20.1799 26 13C26 5.8201 20.1799 0 13 0C5.8201 0 0 5.8201 0 13C0 20.1799 5.8201 26 13 26Z"
+                                                fill="#EDF5FF" />
+                                            <path d="M7.11682 13.8406L10.4786 17.2024L18.8832 8.79785" stroke="#0075FF"
+                                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_1_1367">
+                                                <rect width="26" height="26" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                    <span class="font-bold text-[18px]">
+                                        Living Rooms
+                                    </span>
+                                </div>
+                                <div class="mt-6 flex">
+                                    <svg class="mr-3" width="26" height="26" viewBox="0 0 26 26" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_1_1367)">
+                                            <path
+                                                d="M13 26C20.1799 26 26 20.1799 26 13C26 5.8201 20.1799 0 13 0C5.8201 0 0 5.8201 0 13C0 20.1799 5.8201 26 13 26Z"
+                                                fill="#EDF5FF" />
+                                            <path d="M7.11682 13.8406L10.4786 17.2024L18.8832 8.79785" stroke="#0075FF"
+                                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_1_1367">
+                                                <rect width="26" height="26" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                    <span class="font-bold text-[18px]">
+                                        Carpets
+                                    </span>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="flex">
+                                    <svg class="mr-3" width="26" height="26" viewBox="0 0 26 26" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_1_1367)">
+                                            <path
+                                                d="M13 26C20.1799 26 26 20.1799 26 13C26 5.8201 20.1799 0 13 0C5.8201 0 0 5.8201 0 13C0 20.1799 5.8201 26 13 26Z"
+                                                fill="#EDF5FF" />
+                                            <path d="M7.11682 13.8406L10.4786 17.2024L18.8832 8.79785" stroke="#0075FF"
+                                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_1_1367">
+                                                <rect width="26" height="26" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                    <span class="font-bold text-[18px]">
+                                        Bedrooms
+                                    </span>
+                                </div>
+                                <div class="mt-6 flex">
+                                    <svg class="mr-3" width="26" height="26" viewBox="0 0 26 26" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_1_1367)">
+                                            <path
+                                                d="M13 26C20.1799 26 26 20.1799 26 13C26 5.8201 20.1799 0 13 0C5.8201 0 0 5.8201 0 13C0 20.1799 5.8201 26 13 26Z"
+                                                fill="#EDF5FF" />
+                                            <path d="M7.11682 13.8406L10.4786 17.2024L18.8832 8.79785" stroke="#0075FF"
+                                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_1_1367">
+                                                <rect width="26" height="26" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                    <span class="font-bold text-[18px]">
+                                        Offices
+                                    </span>
+                                </div>
+                                <div class="mt-6 flex">
+                                    <svg class="mr-3" width="26" height="26" viewBox="0 0 26 26" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_1_1367)">
+                                            <path
+                                                d="M13 26C20.1799 26 26 20.1799 26 13C26 5.8201 20.1799 0 13 0C5.8201 0 0 5.8201 0 13C0 20.1799 5.8201 26 13 26Z"
+                                                fill="#EDF5FF" />
+                                            <path d="M7.11682 13.8406L10.4786 17.2024L18.8832 8.79785" stroke="#0075FF"
+                                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_1_1367">
+                                                <rect width="26" height="26" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                    <span class="font-bold text-[18px]">
+                                        Businesses
+                                    </span>
+                                </div>
+                                <div class="mt-6 flex">
+                                    <svg class="mr-3" width="26" height="26" viewBox="0 0 26 26" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_1_1367)">
+                                            <path
+                                                d="M13 26C20.1799 26 26 20.1799 26 13C26 5.8201 20.1799 0 13 0C5.8201 0 0 5.8201 0 13C0 20.1799 5.8201 26 13 26Z"
+                                                fill="#EDF5FF" />
+                                            <path d="M7.11682 13.8406L10.4786 17.2024L18.8832 8.79785" stroke="#0075FF"
+                                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_1_1367">
+                                                <rect width="26" height="26" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                    <span class="font-bold text-[18px]">
+                                        Windows
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mt-[240px]">
+            <div class="container">
+                <div class="flex justify-between">
+                    <div>
+                        <h3 class="font-bold text-dark text-[48px] w-[450px]">
+                            We cover all areas of your home or office
+                        </h3>
+                        <p class="text-mgray text-[18px] mt-5 w-[500px]">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidaidunt
+                            ut
+                            labore
+                            et dolore magna aliqua. Ut enim ad minim veniam.
+                        </p>
+                        <div class="flex justify-between mt-10">
+                            <div>
+                                <p class="font-bold text-[54px]">
+                                    10
+                                    <span class="text-blue font-normal">
+                                        +
+                                    </span>
+                                </p>
+                                <span class="text-[18px] font-bold text-mgray text-center ml-3">
+                                    Years
+                                </span>
+                            </div>
+                            <div>
+                                <p class="font-bold text-[54px]">
+                                    5k
+                                    <span class="text-blue font-normal">
+                                        +
+                                    </span>
+                                </p>
+                                <span class="text-[18px] font-bold text-mgray text-center ml-2">
+                                    Clients
+                                </span>
+                            </div>
+                            <div>
+                                <p class="font-bold text-[54px]">
+                                    20k
+                                    <span class="text-blue font-normal">
+                                        +
+                                    </span>
+                                </p>
+                                <span class="text-[18px] font-bold text-mgray text-center">
+                                    Jobs done
+                                </span>
+                            </div>
+                        </div>
+                        <div class="mt-[80px]">
+                            <button class="btn">
+                                Get a free quote
+                            </button>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="./assets/img/homeDifferent.svg" alt="home">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mt-[240px]">
+            <div class="container">
+                <div class="flex justify-around">
+                    <div class="w-3/5">
+                        <img class="w-full" src="./assets/img/form.svg" alt="home">
+                    </div>
+                    <div class="w-2/5 px-6 border border-l-0">
+                        <h3 class="font-bold text-[48px] text-black w-[491px] mt-5">
+                            Write to us
+                        </h3>
+                        <p class="text-[18px] text-mgray w-[474px] mt-5">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui doloremque eum veritatis
+                            itaque, nobis aperiam voluptatibus repellat non dignissimos vero!
+                        </p>
+                        <div class="mt-5">
+                            <form>
+                                <div>
+                                    <label for="email-address-icon"
+                                        class="block mb-2 text-sm font-medium text-gray-900 ">Your
+                                        Email</label>
+                                    <div class="relative">
+                                        <div
+                                            class="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
+                                            <svg aria-hidden="true" class="w-5 h-5 text-gray-500 "
+                                                fill="currentColor" viewBox="0 0 20 20"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z">
+                                                </path>
+                                                <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z">
+                                                </path>
+                                            </svg>
+                                        </div>
+                                        <input type="text" id="email-address-icon"
+                                            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5 "
+                                            placeholder="name@flowbite.com">
+                                    </div>
+                                </div>
+
+                                <div class="mt-5">
+
+                                    <label for="message"
+                                        class="block mb-2 text-sm font-medium text-gray-900">Your
+                                        message</label>
+                                    <textarea id="message" rows="4"
+                                        class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 "
+                                        placeholder="Leave a comment..."></textarea>
+                                </div>
+                                
+                                <div class="mt-5">
+                                    <button type="send" class="text-white bg-blue hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 ">Send</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </main>
+
+    <footer class="mt-[150px]">
+        <div class="container">
+            <div class="flex justify-between py-10 border-t">
+                <a href="#">
+                    <img class="hover:opacity-50" src="./assets/img/Logo.svg" alt="Logo">
+                </a>
+                <p class="text-mgray">
+                    Copyright © Cleaning X | Designed by <a href="#" class="underline text-blue">BRIX Templates</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

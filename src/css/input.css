@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply bg-blue text-white rounded-xl py-6 px-10 hover:opacity-80 text-lg
+  }
+  .btn-default {
+    @apply bg-white text-dark rounded-xl py-6 px-10 border border-gray-400 hover:opacity-60;
+  }
+
+  .title {
+    @apply font-bold text-[48px] text-dark;
+  }
+  .subtitle {
+    @apply font-normal text-[21px] text-mgray;
+  }
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
