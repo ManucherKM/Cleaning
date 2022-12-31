@@ -12,4 +12,4 @@
 
 ## Preview
 
-[![Layout]()](https://cleaning-rho.vercel.app/)
+[![Layout](https://github.com/ManucherKM/Cleaning/blob/main/preview/home.png?raw=true)](https://cleaning-rho.vercel.app/)
